@@ -24,5 +24,6 @@
   </dependencies>
   <modules>
     <module>create-pattern</module>
+    <module>behavior-pattern</module>
   </modules>
 </project>

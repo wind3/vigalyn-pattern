@@ -7,10 +7,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.vigalyn.pattern</groupId>
-  <artifactId>create-pattern</artifactId>
+  <artifactId>behavior-pattern</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>create-pattern</name>
+  <name>behavior-pattern</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,9 +24,7 @@
     </dependency>
   </dependencies>
   <modules>
-  	<module>vigalyn-abstract-factory</module>
-  	<module>vigalyn-factory-method</module>
-    <module>vigalyn-singleton</module>
-    <module>vigalyn-builder</module>
+  	<module>vigalyn-strategy</module>
+    <module>vigalyn-chain</module>
   </modules>
 </project>
