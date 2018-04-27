@@ -26,5 +26,9 @@
   <modules>
   	<module>vigalyn-strategy</module>
     <module>vigalyn-chain</module>
+    <module>vigalyn-state</module>
+    <module>vigalyn-template-method</module>
+    <module>vigalyn-observer</module>
+    <module>vigalyn-publish-subcribe</module>
   </modules>
 </project>

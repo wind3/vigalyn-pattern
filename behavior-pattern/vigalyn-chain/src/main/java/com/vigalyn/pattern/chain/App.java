@@ -34,9 +34,5 @@ public class App
     	chain.doFilter("过滤器责任链");
     	
     	
-    	ChainNode customer = new ChainNode(new Customer());
-    	ChainNode engineer = new ChainNode(new Engineer());
-    	ChainNode manager = new ChainNode(new Manager());
-    	
     }
 }
