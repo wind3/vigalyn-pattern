@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
+  <parent>
+    <groupId>com.vigalyn.pattern</groupId>
+    <artifactId>vigalyn-pattern</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
   <groupId>com.vigalyn.pattern</groupId>
-  <artifactId>vigalyn-pattern</artifactId>
+  <artifactId>structure-pattern</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-
-  <name>vigalyn-pattern</name>
+  <name>structure-pattern</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -23,8 +24,11 @@
     </dependency>
   </dependencies>
   <modules>
-    <module>create-pattern</module>
-    <module>behavior-pattern</module>
-    <module>structure-pattern</module>
+  	<module>vigalyn-adapter</module>
+  	<module>vigalyn-decorator</module>
+  	<module>vigalyn-proxy</module>
+    <module>vigalyn-facade</module>
+    <module>vigalyn-composite</module>
+    <module>vigalyn-flyweight</module>
   </modules>
 </project>

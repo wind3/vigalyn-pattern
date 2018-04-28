@@ -30,5 +30,6 @@
     <module>vigalyn-template-method</module>
     <module>vigalyn-observer</module>
     <module>vigalyn-publish-subcribe</module>
+    <module>vigalyn-command</module>
   </modules>
 </project>
