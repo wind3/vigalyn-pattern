@@ -31,5 +31,8 @@
     <module>vigalyn-observer</module>
     <module>vigalyn-publish-subcribe</module>
     <module>vigalyn-command</module>
+    <module>vigalyn-callback</module>
+    <module>vigalyn-async-callback</module>
+    <module>vigalyn-event-driven</module>
   </modules>
 </project>
